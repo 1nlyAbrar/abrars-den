@@ -1,5 +1,4 @@
-﻿// Build v2 - Fix Email
-"use client";
+﻿"use client";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SectionReveal from "@/components/SectionReveal";
@@ -18,13 +17,15 @@ export default function ContactPage() {
     const email = String(data.get("email") || "").trim();
     const message = String(data.get("message") || "").trim();
     if (!name || !email || !message) { setStatus("error"); return; }
+    
+    // THIS MAKES THE FORM WORK PROPERLY
     window.location.href = `mailto:${profile.email}?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message + "\n\nFrom: " + email)}`;
     setStatus("sent");
   };
 
   return (
     <>
-      <Header />
+      <Header onOpenCommand={() => {}} />
       <main className="mx-auto max-w-4xl px-4 pt-32">
         <SectionReveal>
           <h1 className="font-display text-4xl font-black">
@@ -71,4 +72,3 @@ export default function ContactPage() {
     </>
   );
 }
-
