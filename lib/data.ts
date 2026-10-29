@@ -12,9 +12,9 @@
     "Artificial Intelligence and Automation",
     "Software and Web Development",
   ],
-  linkedin: "https://www.linkedin.com/in/1nlyabrar/",
+  linkedin: "https://www.linkedin.com/in/lnlyabrar",
   github: "https://github.com/1nlyAbrar",
-  email: "fabrar960@gmail.com ",
+  email: "fabrar960@gmail.com",
 };
 
 export type Experience = {
