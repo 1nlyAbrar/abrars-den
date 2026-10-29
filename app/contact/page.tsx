@@ -1,4 +1,5 @@
-﻿"use client";
+﻿// Build v2 - Fix Email
+"use client";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SectionReveal from "@/components/SectionReveal";
