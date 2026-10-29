@@ -12,7 +12,7 @@
     "Artificial Intelligence and Automation",
     "Software and Web Development",
   ],
-  linkedin: "https://www.linkedin.com/in/lnlyabrar",
+  linkedin: "https://www.linkedin.com/in/1nlyabrar/",
   github: "https://github.com/1nlyAbrar",
   email: "fabrar960@gmail.com",
 };
