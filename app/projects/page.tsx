@@ -6,41 +6,36 @@ import { ExternalLink, Github } from "lucide-react";
 
 export const metadata = { title: "Projects - Abrar Faiyaz" };
 
-// ==========================================
-// EDIT YOUR PROJECTS HERE
-// ==========================================
 const projects = [
   {
     title: "IT Hardware Diagnostics Tool",
     desc: "A custom script designed to diagnose hardware failures and monitor system health across multiple Windows machines.",
     stack: ["Windows", "Hardware", "PowerShell"],
-    image: "/project1.jpg", // Put an image named project1.jpg in your public folder!
-    liveLink: "https://example.com", // Replace with live link
-    githubLink: "https://github.com/1nlyAbrar", // Replace with your repo link
+    image: "/project1.jpg", 
+    liveLink: "https://example.com", 
+    githubLink: "https://github.com/1nlyAbrar", 
   },
   {
-    title: "THE AGENT- Your AI Workspace",
-    desc: "A next-generation AI operating environment — combining conversational AI, voice interaction, document intelligence, research, and productivity tools into a single immersive experience.",
-    stack: ["Research Center", "Code Assistant", "Conversational AI"],
+    title: "Network Infrastructure Setup",
+    desc: "Configured a secure LAN/WLAN network with hardware firewalls, switch management, and cloud-based monitoring for a small office.",
+    stack: ["Networking", "Cloud", "Security"],
     image: "/project2.jpg", 
-    liveLink: "https://the-agent-three.vercel.app/", 
-    githubLink: "https://github.com/1nlyAbrar/The-Agent",
+    liveLink: "#", 
+    githubLink: "#",
   },
   {
-    title: "Business Analysis Dashboard",
+    title: "Data Analysis Dashboard",
     desc: "Created a dynamic Excel dashboard to visualize sales data, identify trends, and automate monthly reporting.",
-    stack: ["Excel & CSV", "Data Analysis", "AI Reporting"],
+    stack: ["Excel", "Data Analysis", "Reporting"],
     image: "/project3.jpg",
-    liveLink: "https://automationdemo-eta.vercel.app/overview",
+    liveLink: "#",
     githubLink: "#",
   }
 ];
-// ==========================================
 
 export default function ProjectsPage() {
   return (
     <>
-      {/* FIXED: Removed onOpenCommand from here */}
       <Header />
       
       <main className="mx-auto max-w-6xl px-4 pt-32">
@@ -65,7 +60,6 @@ export default function ProjectsPage() {
                     alt={p.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
                   />
                 </div>
 
