@@ -19,19 +19,19 @@ const projects = [
     githubLink: "https://github.com/1nlyAbrar", // Replace with your repo link
   },
   {
-    title: "Network Infrastructure Setup",
-    desc: "Configured a secure LAN/WLAN network with hardware firewalls, switch management, and cloud-based monitoring for a small office.",
-    stack: ["Networking", "Cloud", "Security"],
+    title: "THE AGENT-  AI Workspace",
+    desc: "A next-generation AI operating environment— combining conversational AI, voice interaction, document intelligence, research, and productivity tools into a single immersive experience.",
+    stack: ["Prompting", "Document Reader", "Code Generator"],
     image: "/project2.jpg", 
-    liveLink: "#", 
-    githubLink: "#",
+    liveLink: "https://the-agent-three.vercel.app/", 
+    githubLink: "https://github.com/1nlyAbrar/The-Agent",
   },
   {
-    title: "Data Analysis Dashboard",
+    title: "Business Analysis Website",
     desc: "Created a dynamic Excel dashboard to visualize sales data, identify trends, and automate monthly reporting.",
-    stack: ["Excel", "Data Analysis", "Reporting"],
+    stack: ["Excel & CSV", "Data Analysis", "AI Reporting"],
     image: "/project3.jpg",
-    liveLink: "#",
+    liveLink: "https://automationdemo-eta.vercel.app/overview",
     githubLink: "#",
   }
 ];
